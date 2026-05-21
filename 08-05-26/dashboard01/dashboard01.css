@@ -138,3 +138,156 @@ hr {
     border-radius: 15px;
 
 }
+
+.meus-cursos {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.icon-btn {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    border: none;
+    background: #421b8d;
+    color: white;
+    font-size: 20px;
+}
+
+.filtro {
+    background-color: #421b8d;
+    border-radius: 5px;
+    width: 6vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-radius: 15px;
+    color: #fcfcfb;
+}
+
+.letraaaaa {
+    color: #fcfcfb;
+}
+
+.cursos {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-curso {
+    display: flex;
+    justify-content: space-around;
+    background: #2a0b66;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    
+}
+
+.cursos img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: grid;
+    gap: 50px; 
+    
+}
+
+
+.caixa {
+    background-color: #2c1367;
+    border-radius: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background: #421b8d;
+    padding: 8px 14px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #fcfcfb
+}
+
+.h3 {
+    color: #fcfcfb;
+}
+
+.p {
+    margin-bottom: 10px;
+    color: #c7b7f3;
+}
+
+.continuar {
+    flex: 1;
+    background: linear-gradient(to right, #6f2dff, #421b8d);
+    border: none;
+    padding: 16px;
+    border-radius: 14px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.marcar {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+.final{
+        margin-top: 30px;
+    background: #2c1367;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.final-dentro{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.estrela{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background: #421b8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+}
+.testo{
+    color: #fcfcfb;
+}
+.botttton{
+    background: linear-gradient(to right, #6d28ff, #421b8d);
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+}
